@@ -1,0 +1,28 @@
+{
+  "name": "nhi-validator",
+  "version": "1.0.0",
+  "description": "Checks a string against the New Zealand Ministry of Health NHI Validation Routine",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elilambnz/nhi-validator.git"
+  },
+  "keywords": [
+    "nhi"
+  ],
+  "author": "Eli Lamb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elilambnz/nhi-validator/issues"
+  },
+  "homepage": "https://github.com/elilambnz/nhi-validator#readme"
+}
