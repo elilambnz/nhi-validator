@@ -25,7 +25,7 @@ export const validateNHI = (nhi: string) => {
     // Steps 12 - 13
     const checkDigit = (11 - checksum) % 10;
     // Steps 11, 14
-    return checksum !== 0 && checkDigit === nhiConversionNums.slice(-1)[0];
+    return checksum !== 0 && checkDigit === nhiConversionNums[6];
   }
   return false;
 };
