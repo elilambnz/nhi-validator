@@ -1,6 +1,6 @@
 # nhi-validator
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/elilambnz/nhi-validator/Tests?style=flat-square)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/elilambnz/nhi-validator/Tests?style=flat-square)](https://github.com/elilambnz/nhi-validator/actions?query=workflow%3ATests+branch%3Amain)
 [![npm](https://img.shields.io/npm/v/nhi-validator?style=flat-square)](https://www.npmjs.com/package/nhi-validator)
 [![NPM](https://img.shields.io/npm/l/nhi-validator?style=flat-square)](https://github.com/elilambnz/nhi-validator/blob/main/LICENSE.md)
 
