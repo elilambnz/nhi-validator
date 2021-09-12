@@ -1,7 +1,8 @@
 # nhi-validator
 
-![npm](https://img.shields.io/npm/v/nhi-validator?style=flat-square)
-![NPM](https://img.shields.io/npm/l/nhi-validator?style=flat-square)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/elilambnz/nhi-validator/Tests?style=flat-square)
+[![npm](https://img.shields.io/npm/v/nhi-validator?style=flat-square)](https://www.npmjs.com/package/nhi-validator)
+[![NPM](https://img.shields.io/npm/l/nhi-validator?style=flat-square)](https://github.com/elilambnz/nhi-validator/blob/main/LICENSE.md)
 
 Checks a string against the New Zealand Ministry of Health NHI Validation Routine.
 
