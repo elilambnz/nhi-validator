@@ -1,8 +1,10 @@
 # nhi-validator
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/elilambnz/nhi-validator/Tests?style=flat-square)](https://github.com/elilambnz/nhi-validator/actions?query=workflow%3ATests+branch%3Amain)
-[![npm](https://img.shields.io/npm/v/nhi-validator?style=flat-square)](https://www.npmjs.com/package/nhi-validator)
-[![NPM](https://img.shields.io/npm/l/nhi-validator?style=flat-square)](https://github.com/elilambnz/nhi-validator/blob/main/LICENSE.md)
+[![Build Status](https://img.shields.io/github/workflow/status/elilambnz/nhi-validator/Tests?style=flat-square&label=Tests)](https://github.com/elilambnz/nhi-validator/actions?query=workflow%3ATests+branch%3Amain)
+[![CodeQL](https://img.shields.io/github/workflow/status/elilambnz/nhi-validator/CodeQL?style=flat-square&label=CodeQL)](https://github.com/elilambnz/nhi-validator/actions?query=workflow%3ACodeQL+branch%3Amain)
+[![MIT License](https://img.shields.io/npm/l/nhi-validator?style=flat-square)](https://github.com/elilambnz/nhi-validator/blob/main/LICENSE.md)
+[![NPM Version](https://img.shields.io/npm/v/nhi-validator?style=flat-square)](https://www.npmjs.com/package/nhi-validator)
+[![NPM Bundle Size](https://img.shields.io/bundlephobia/min/nhi-validator?style=flat-square)](https://bundlephobia.com/package/nhi-validator)
 
 Checks a string against the New Zealand Ministry of Health NHI Validation Routine.
 
