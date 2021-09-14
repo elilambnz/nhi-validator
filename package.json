@@ -1,6 +1,6 @@
 {
   "name": "nhi-validator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Checks a string against the New Zealand Ministry of Health NHI Validation Routine",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
