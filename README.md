@@ -26,7 +26,8 @@ _nhi-validator_ is available under the MIT License.
 
 ## Contact
 
-Eli Lamb - [elilambnz](https://github.com/elilambnz)
+Eli Lamb - [elilambnz](https://github.com/elilambnz)  
+James Ansley - [James-Ansley](https://github.com/James-Ansley)
 
 ## Acknowlegments
 
