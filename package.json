@@ -29,7 +29,7 @@
   "homepage": "https://github.com/elilambnz/nhi-validator#readme",
   "devDependencies": {
     "@types/chai": "^4.2.21",
-    "@types/mocha": "^9.0.0",
+    "@types/mocha": "^10.0.1",
     "chai": "^4.3.4",
     "mocha": "^10.0.0",
     "standard-version": "^9.3.1",
