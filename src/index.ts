@@ -1,3 +1,3 @@
-import { validateNHI } from "./validateNHI";
+import { validateNHI } from './validateNHI'
 
-export { validateNHI };
+export { validateNHI }

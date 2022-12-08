@@ -1,35 +1,27 @@
-name: Tests
-"on":
+name: CI
+on:
   push:
+    branches: [main]
   pull_request:
-    types:
-      - opened
-      - synchronize
-      - reopened
+    branches: [main]
 
 jobs:
-  test:
-    name: "Node.js v${{ matrix.node }}"
+  build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node:
-          - 12
-          - 14
-          - 16
+        node: [14, 16, 18]
+    name: Node ${{ matrix.node }} sample
     steps:
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
+      - name: Setup node
+        uses: actions/setup-node@v3
         with:
-          node-version: "${{ matrix.node }}"
-      - uses: actions/checkout@v2
-      - name: "Cache node_modules"
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-v${{ matrix.node }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-v${{ matrix.node }}-
-      - name: Install Dependencies
-        run: npm install
-      - name: Run All Node.js Tests
-        run: npm run test
+          node-version: ${{ matrix.node }}
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm ci
+      - name: Check style
+        run: npm run lint && npm run style
+      - name: Run tests
+        run: npm run build && npm test

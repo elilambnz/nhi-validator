@@ -12,7 +12,9 @@
     "prepare": "npm run build",
     "test": "mocha",
     "release": "standard-version",
-    "publish": "git push --follow-tags origin main && npm publish"
+    "publish": "git push --follow-tags origin main && npm publish",
+    "lint": "eslint . --ext .ts",
+    "style": "prettier --check src"
   },
   "repository": {
     "type": "git",
@@ -30,10 +32,14 @@
   "devDependencies": {
     "@types/chai": "^4.2.21",
     "@types/mocha": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
     "chai": "^4.3.4",
+    "eslint": "^8.29.0",
     "mocha": "^10.0.0",
+    "prettier": "^2.8.1",
     "standard-version": "^9.3.1",
     "ts-node": "^10.2.1",
-    "typescript": "^4.4.3"
+    "typescript": "^4.9.4"
   }
 }

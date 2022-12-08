@@ -13,19 +13,20 @@ export const validateNHI = (nhi: string) => {
       !isNaN(Number(c))
         ? Number(c)
         : c.charCodeAt(0) -
-          "@".charCodeAt(0) -
-          ("I" < c ? 1 : 0) -
-          ("O" < c ? 1 : 0)
-    );
+          '@'.charCodeAt(0) -
+          (c > 'I' ? 1 : 0) -
+          (c > 'O' ? 1 : 0)
+    )
+
     // Steps 3 - 10
     const weightedVals = nhiConversionNums
       .slice(0, -1)
-      .map((v, i) => v * (7 - i));
-    const checksum = weightedVals.reduce((acc, cur) => acc + cur, 0) % 11;
+      .map((v, i) => v * (7 - i))
+    const checksum = weightedVals.reduce((acc, cur) => acc + cur, 0) % 11
     // Steps 12 - 13
-    const checkDigit = (11 - checksum) % 10;
+    const checkDigit = (11 - checksum) % 10
     // Steps 11, 14
-    return checksum !== 0 && checkDigit === nhiConversionNums[6];
+    return checksum !== 0 && checkDigit === nhiConversionNums[6]
   }
-  return false;
-};
+  return false
+}
