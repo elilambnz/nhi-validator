@@ -38,3 +38,7 @@ Derived from a Python NHI validation function written by James Ansley https://gi
 ## Disclaimer
 
 This repository contains NHI numbers provided in examples and tests, however, no identification with actual persons (living or deceased) is intended. If you believe that an NHI number that belongs to a real person has been included in this repository, please get in contact to remove it.
+
+## Contributing
+
+If you're interested in contributing, please read our [contributing docs](https://github.com/elilambnz/nhi-validator/blob/master/.github/CONTRIBUTING.md) **before submitting a pull request**.
