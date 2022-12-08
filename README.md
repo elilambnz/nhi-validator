@@ -41,4 +41,4 @@ This repository contains NHI numbers provided in examples and tests, however, no
 
 ## Contributing
 
-If you're interested in contributing, please read our [contributing docs](https://github.com/elilambnz/nhi-validator/blob/master/.github/CONTRIBUTING.md) **before submitting a pull request**.
+If you're interested in contributing, please read our [contributing docs](https://github.com/elilambnz/nhi-validator/blob/master/CONTRIBUTING.md) **before submitting a pull request**.
