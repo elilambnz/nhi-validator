@@ -24,4 +24,4 @@ jobs:
       - name: Check style
         run: npm run lint && npm run style
       - name: Run tests
-        run: npm run build && npm test
+        run: npm test
