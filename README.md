@@ -10,7 +10,7 @@ Checks a string against the New Zealand Ministry of Health NHI Validation Routin
 
 ## Getting Started
 
-```
+```sh
 npm install nhi-validator
 ```
 
@@ -29,7 +29,7 @@ _nhi-validator_ is available under the MIT License.
 Eli Lamb - [elilambnz](https://github.com/elilambnz)  
 James Ansley - [James-Ansley](https://github.com/James-Ansley)
 
-## Acknowlegments
+## Acknowledgments
 
 New Zealand Ministry of Health NHI Validation Routine retrieved on 09/12/2020 from https://www.health.govt.nz/.
 
