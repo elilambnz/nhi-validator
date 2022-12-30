@@ -31,7 +31,9 @@ James Ansley - [James-Ansley](https://github.com/James-Ansley)
 
 ## Acknowledgments
 
-New Zealand Ministry of Health NHI Validation Routine retrieved on 09/12/2020 from https://www.health.govt.nz/.
+New Zealand Ministry of Health NHI Validation Routine retrieved on 09/12/2020 from https://www.health.govt.nz.
+
+Accepts old and new format introduced in July 2020 https://www.health.govt.nz/our-work/health-identity/national-health-index/upcoming-changes-nhi-numbers.
 
 Derived from a Python NHI validation function written by James Ansley https://gist.github.com/James-Ansley/c37f3473e097a2ae4a6eba16e2f8957d.
 
