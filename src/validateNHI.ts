@@ -27,8 +27,8 @@ export const validateNHI = (nhi: string) => {
   const weightedVals = nhiConversionNums.slice(0, -1).map((v, i) => v * (7 - i))
 
   if (matchesNew) {
-    const checksum = weightedVals.reduce((acc, cur) => acc + cur, 0) % 24
-    const checkDigit = 24 - checksum
+    const checksum = weightedVals.reduce((acc, cur) => acc + cur, 0) % 23
+    const checkDigit = 23 - checksum
     return checkDigit === nhiConversionNums[6]
   }
   if (matchesOld) {

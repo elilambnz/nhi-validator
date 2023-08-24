@@ -13,16 +13,15 @@ describe('validateNHI()', function () {
       'CGC2720',
       'ZAC5361',
       // New format
-      'ZBC42DQ',
-      'ZZZ00AX',
-      'ZGT56KB',
-      'ZHS91BR',
-      'ZHW58CN',
-      'ZLV86AX',
-      'ZZZ00ZZ',
-      'ZVU27KZ',
-      'ZZZ99ZJ',
-      'AAA00AD',
+      'ZBN77VL',
+      'ZZZ00AC',
+      'ZDR69YX',
+      'ZSC21TN',
+      'ZZB30NH',
+      'ZYZ81ZV',
+      'ZVB97XQ',
+      'ZRA29VA',
+      'ZYX61YS',
     ]
 
     validExs.forEach((ex) => {
