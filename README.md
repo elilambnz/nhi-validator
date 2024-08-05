@@ -47,7 +47,7 @@ validateNHI(value) // => true
 
 _nhi-validator_ is available under the MIT License.
 
-## Contact
+## Maintainers
 
 Eli Lamb - [elilambnz](https://github.com/elilambnz)  
 James Ansley - [James-Ansley](https://github.com/James-Ansley)
