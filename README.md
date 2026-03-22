@@ -8,8 +8,6 @@
 
 Checks a string against the New Zealand Ministry of Health NHI Validation
 Routine.
-Supports the old and new NHI number formats specified in
-[HISO 10046:2023](https://www.tewhatuora.govt.nz/publications/hiso-100462023-consumer-health-identity-standard/).
 
 ## Getting Started
 
@@ -18,7 +16,7 @@ npm install nhi-validator
 ```
 
 ```js
-import {validateNHI} from 'nhi-validator'
+import { validateNHI } from 'nhi-validator'
 
 validateNHI('WLD9413') // => true
 validateNHI('zsc21tn') // => true
@@ -35,7 +33,7 @@ If you wish to exclude these values, you will need to manually check for a `Z`
 prefix:
 
 ```js
-import {validateNHI} from 'nhi-validator'
+import { validateNHI } from 'nhi-validator'
 
 let value = 'zvb97xq'
 
@@ -50,17 +48,16 @@ _nhi-validator_ is available under the MIT License.
 ## Maintainers
 
 Eli Lamb - [elilambnz](https://github.com/elilambnz)  
-James Ansley - [James-Ansley](https://github.com/James-Ansley)
+James Ansley - [James-Ansley (GitHub)](https://github.com/James-Ansley) / [jamesansley (Codeberg)](https://codeberg.org/jamesansley)
 
 ## See Also
 
-- https://www.tewhatuora.govt.nz/publications/hiso-100462023-consumer-health-identity-standard/
-- https://www.tewhatuora.govt.nz/our-health-system/digital-health/health-identity/national-health-index/information-for-health-it-vendors-and-developers
+- https://www.tewhatuora.govt.nz/health-services-and-programmes/digital-health/data-and-digital-standards/health-information-standards-organisation-hiso#hiso-documents
+- https://www.tewhatuora.govt.nz/health-services-and-programmes/health-identity/national-health-index/upcoming-changes-nhi
 
 ## Acknowledgments
 
-Derived from [python-nhi](https://github.com/James-Ansley/python-nhi) written by
-[James Ansley](https://github.com/James-Ansley).
+- Elixir, JavaScript, PKL, Python, and Rust packages for New Zealand Ministry of Health NHI Validation (HISO 10046:2025) - [jamesansley/nhi](https://codeberg.org/jamesansley/nhi)
 
 ## Disclaimer
 

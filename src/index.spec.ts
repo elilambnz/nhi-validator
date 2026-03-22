@@ -22,6 +22,18 @@ describe('validateNHI()', function () {
       'ZVB97XQ',
       'ZRA29VA',
       'ZYX61YS',
+      'ZXE24NV',
+      'ZUA48EH',
+      'ZUT01RG',
+      'ZTL39SK',
+      'ZWB84LW',
+      'ZQF54PV',
+      'ACA31FM',
+      'ASE37QK',
+      'ARE62RS',
+      'BGJ06AS',
+      'BGA44DT',
+      'BWT41BY',
     ]
 
     validExs.forEach((ex) => {
@@ -43,6 +55,7 @@ describe('validateNHI()', function () {
       'ZHW58CZ',
       'ZZZ99ZS',
       'AAA00AB',
+      'AAANNNC',
     ]
 
     invalidExs.forEach((ex) => {
